@@ -11,8 +11,8 @@ O.ex = true;
 O.G = true;
 O.J = true;
 O.jexact = true;
-O.jfast = false;
-O.linear = false;
+%O.jfast = false;
+%O.linear = false;
 %
 if ~O.linear 
   O.itermethod = 'ML'; % ?GN? Gauss-Newton ?ML? or ?LM? for Marquardt-Levenberg
